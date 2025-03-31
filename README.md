@@ -3,7 +3,7 @@
 ![Python](https://img.shields.io/badge/Python-3.6%2B-blue?logo=python)
 [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 
-Una herramienta Python para monitorear y analizar logs en tiempo real o en modo repetitivo. Detecta patrones personalizados usando expresiones regulares y genera alertas.
+Una herramienta para monitorear y analizar logs en tiempo real o en modo repetitivo. Detecta patrones personalizados usando expresiones regulares y genera alertas.
 
 ## 🚀 Características Principales
 
